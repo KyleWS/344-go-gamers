@@ -1,0 +1,39 @@
+.main{
+  background-color: #FBF0DA;
+}.mainCanvas{
+    width: 100%;
+}
+.canvasSeg{
+    margin-top: 1em !important;
+}
+.screen{
+    /* overflow: auto; */
+    max-height: 80vh;
+}
+.favImg{
+  width: 100%;
+}
+
+#drawing-mode {
+    margin-bottom: 10px;
+    vertical-align: top;
+  }
+  #drawing-mode-options {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #f5f2f0;
+    padding: 10px;
+  }
+  label {
+    display: inline-block; width: 130px;
+  }
+  .info {
+    display: inline-block;
+    width: 25px;
+    background: #ffc;
+  }
+  #bd-wrapper {
+    min-width: 1500px;
+  }

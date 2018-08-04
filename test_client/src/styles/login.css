@@ -1,0 +1,46 @@
+body {
+    padding-top: 50px;
+    background: rgb(255, 248, 248);
+}
+
+.panel {
+    width: 500px;
+    background: rgb(255, 243, 243);
+    margin: auto;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+#header {
+    border-bottom: solid;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.active-tab {
+    font-size: 18px;
+    color: green;
+    text-decoration: none;    
+}
+
+#form-body {
+    padding-top: 10px;
+}
+
+#register {
+    display: none;
+}
+
+#errors{
+    text-align: center;
+}

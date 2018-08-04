@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="src/styles/login.css" type="text/css">
+        <script src="src/js/login.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="panel">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3" id="header">
+                        <div class="col-md-6">
+                            <a id="login-tab" class="active-tab" href="#">Login</a>
+                        </div>
+                        <div class="col-md-6">
+                            <a id="reg-tab" href="#">Register</a>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row" id="form-body">
+                    <div class="col-md-6 col-md-offset-3">
+                        <form id="login">
+                            <div class="form-group">
+                                Email: <input id="log-email" type="text" class="form-control">    
+                            </div>
+                            <div class="form-group">
+                                Password: <input id="log-pass" type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input id="login-sub" type="submit" class="form-control btn btn-success">
+                            </div>
+                        </form>
+                        <form id="register">
+                            <div class="form-group">
+                                Email: <input id="reg-email" type="text" class="form-control">   
+                            </div>
+                            <div class="form-group">
+                                Username: <input id="reg-user" type="text" class="form-control">  
+                            </div>
+                            <div class="form-group">
+                                First Name: <input id="reg-fn" type="text" class="form-control">    
+                            </div>
+                            <div class="form-group">
+                                Last Name: <input id="reg-ln" type="text" class="form-control">   
+                            </div>
+                            <div class="form-group">
+                                Password: <input id="reg-pass" type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                Confirm Password: <input id="reg-passconf" type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <input id="register-sub" type="submit" class="form-control btn btn-success">
+                            </div>
+                        </form>
+                        <div id="errors"></div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </body>
+</html>
